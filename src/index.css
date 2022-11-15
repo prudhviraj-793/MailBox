@@ -1,0 +1,27 @@
+.auth-container {
+    position: relative;
+    top: 100px;
+    padding: 5px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,button {
+    margin-bottom: 10px;
+}
+
+.switch {
+    padding: 4px;
+    text-align: center;
+}
+
+.auth-header {
+    text-align: center;
+}

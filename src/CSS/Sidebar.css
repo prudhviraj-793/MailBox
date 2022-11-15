@@ -1,0 +1,6 @@
+.sidebar-container {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,11 @@
+.compose-container {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.send-btn {
+    margin-top: 5px;
+    padding: 5px;
+    width: 100px;
+}

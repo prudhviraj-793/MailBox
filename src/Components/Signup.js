@@ -52,7 +52,7 @@ function Signup() {
           ref={confirmPasswordRef}
           required
         />
-        <button type="submit">Sign Up</button>
+        <button className="btn btn-primary" type="submit">Sign Up</button>
       </form>
       <div className="switch">
         <Link to="/login">Have an account? Login</Link>

@@ -36,7 +36,7 @@ function Login() {
 
   return (
     <div className="auth-container">
-      <div className="auth-header">
+      <div className="mb-2 text-center">
         <h3>Login</h3>
       </div>
       <form onSubmit={loginHandler} className="form">
@@ -47,9 +47,11 @@ function Login() {
           placeholder="Password"
           required
         />
-        <button type="submit">Login</button>
+        <button className="btn btn-primary" type="submit">
+          Login
+        </button>
       </form>
-      <div className="switch">
+      <div className="card-footer text-center">
         <div>
           <Link to="/">Forgot Password</Link>
         </div>
